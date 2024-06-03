@@ -67,7 +67,7 @@ public class TicTacToeGUI extends JFrame implements ActionListener {
         String message;
         if (winner == Board.USER) {
             message = "Congratulations, you win!";
-        } else if (winner == Bodard.AI) {
+        } else if (winner == Board.AI) {
             message = "You lose! AI wins!";
         } else {
             message = "It's a tie!";
